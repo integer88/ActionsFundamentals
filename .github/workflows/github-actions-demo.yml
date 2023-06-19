@@ -11,7 +11,7 @@ on:
     
 jobs:
   Build:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       - run: |
           echo "Triggered by event: ${{ github.event_name }}"
